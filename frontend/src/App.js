@@ -4,7 +4,7 @@ function App() {
       <header className="App-header">
         <a href="/">SGIRS</a>
       </header>
-      <main></main>
+      <main>INICIO</main>
     </div>
   );
 }
