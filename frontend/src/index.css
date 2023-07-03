@@ -7,13 +7,46 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-header {
-  background-color: #404040;
-  padding: 1rem;
+.navbar {
+  background-color: #2c2e3a;
 }
 
-header a {
-  color: #ffff;
-  font-weight: bold;
-  text-decoration: none;
+body {
+  background-image: url('./images/fondo_home.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.small-container {
+  max-width: 600px;
+}
+.small-container1 {
+  max-width: 800px;
+}
+
+.small-container2 {
+  max-width: 1000px;
+}
+
+div.boton {
+  text-align: center;
+}
+
+td.columnas {
+  width: 90px;
+  text-align: center;
+}
+th.columnas {
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+}
+
+div.padre {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
